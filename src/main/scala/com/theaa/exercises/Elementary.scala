@@ -9,7 +9,8 @@ object Elementary extends App {
 //  println(getSum((1 to 10).toArray))
 //    println(getSumUsingStepIncrement(Array.range(1, 10, 2)))
 //  println(getProduct(5))
-  println(printMultiplicationTable(12))
+//  println(printMultiplicationTable(12))
+//  printPrimeNumbers(100)
 
   def printName(): Unit = {
     val scanner = new Scanner(System.in)
@@ -50,6 +51,12 @@ object Elementary extends App {
         print(j * i + " ")
       }
       println()
+    }
+  }
+
+  def printPrimeNumbers(value: Int): Unit = {
+    for (i <- 2 to 100 if (2 until i).forall(i % _ != 0)) {
+      println(i)
     }
   }
 
