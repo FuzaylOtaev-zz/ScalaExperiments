@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScalaFirstApp.iml" filepath="$PROJECT_DIR$/.idea/modules/ScalaFirstApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScalaFirstApp-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ScalaFirstApp-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scalaexperiments-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scalaexperiments-build.iml" />
     </modules>
   </component>
 </project>
